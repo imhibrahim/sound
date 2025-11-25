@@ -54,3 +54,4 @@ Route::post('/update/{id}',[studentController::class,'update']);
 
 
 Route::get('/search',[studentController::class,"search"])->name('search');
+Route::get('/dildar',[studentController::class,"dildar"])->name('dildar');
